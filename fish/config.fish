@@ -18,11 +18,6 @@ alias gitr='git reset (git log -n 1 --skip 1 --pretty=format:"%H")'
 alias gitclean='git branch --merged | egrep -v "(^\*|master)" | xargs git branch -d'
 
 alias ys='nvm use default && yarn start'
-alias ydb='yarn db'
-alias ym='yarn make_data_staging'
-alias moca='cd ~/Documents/programming/padpiper/moca'
-alias espresso='cd ~/Documents/programming/padpiper/espresso'
-alias frappe='cd ~/Documents/programming/padpiper/frappe'
 alias cat='ccat'
 
 # Navigation
